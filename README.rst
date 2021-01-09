@@ -22,6 +22,7 @@ COVID19 DATA 処理
 東京都の web から 0104.pdf をダウンロードして、./data フォルダーに置いた場合:
 
 ::
+
     # 以下のコマンドで data/0104.csv が出来る
     pdf2tky.py data/0104.pdf
     
