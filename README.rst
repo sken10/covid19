@@ -7,8 +7,11 @@ COVID19 DATA 処理
 
 変換ツール
 ----------
-* pdf2tky.py   pdfplumber を使ってテキスト情報を抽出する。
-* cmp_year.py  year を補って、YMD 形式のリリース/発症/確定日を追加する。
+
+::
+
+    pdf2tky.py   pdfplumber を使ってテキスト情報を抽出する。
+    cmp_year.py  year を補って、YMD 形式のリリース/発症/確定日を追加する。
 
 データ源泉は、ソースファイル内の記述を参照のこと。
 東京都の資料は、記号の丸[○]ではなく漢数字の零[〇]が使用されることがある。
@@ -18,9 +21,10 @@ COVID19 DATA 処理
 
 東京都の web から 0104.pdf をダウンロードして、./data フォルダーに置いた場合:
 
+::
     # 以下のコマンドで data/0104.csv が出来る
     pdf2tky.py data/0104.pdf
-
+    
     # 以下のコマンドで data/0104_c.csv (ファイル名に _c 付加)が出来る
     cmp_year.py data/0104.csv
-
+    
