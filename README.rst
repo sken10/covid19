@@ -1,37 +1,37 @@
 *****************
-COVID19 DATA ˆ—
+COVID19 DATA å‡¦ç†
 *****************
 
 /Tokyo
 ======
 
-"“Œ‹ž“s‚ÌŠ´õŽÒó‹µ(ŒÂ•[)‚©‚çƒeƒLƒXƒg‚ð’Šo‚·‚é (PDF=> CSV)
+"æ±äº¬éƒ½ã®æ„ŸæŸ“è€…çŠ¶æ³(å€‹ç¥¨)ã‹ã‚‰ãƒ†ã‚­ã‚¹ãƒˆã‚’æŠ½å‡ºã™ã‚‹ (PDF=> CSV)
 
 ::
 
-    pdf2tky.py   pdfplumber ‚ðŽg‚Á‚Ä PDF ‚©‚çƒeƒLƒXƒgî•ñ‚ð’Šo‚·‚éB
-    cmp_year.py  year ‚ð•â‚Á‚ÄAYMD Œ`Ž®‚ÌƒŠƒŠ[ƒX/”­Ç/Šm’è“ú‚ð’Ç‰Á‚·‚éB
+    pdf2tky.py   pdfplumber ã‚’ä½¿ã£ã¦ PDF ã‹ã‚‰ãƒ†ã‚­ã‚¹ãƒˆæƒ…å ±ã‚’æŠ½å‡ºã™ã‚‹ã€‚
+    cmp_year.py  year ã‚’è£œã£ã¦ã€YMD å½¢å¼ã®ãƒªãƒªãƒ¼ã‚¹/ç™ºç—‡/ç¢ºå®šæ—¥ã‚’è¿½åŠ ã™ã‚‹ã€‚
 
-ƒf[ƒ^ƒ\[ƒX
+ãƒ‡ãƒ¼ã‚¿ã‚½ãƒ¼ã‚¹
 
 ::
 
-    “Œ‹ž“s•ŸŽƒ•ÛŒ’‹Ç / VŒ^ƒRƒƒiƒEƒCƒ‹ƒXŠ´õÇ‚Ì“s“àŠ´õŽÒ‚Ìó‹µ (PDF: ŒŽ—jXV)
+    æ±äº¬éƒ½ç¦ç¥‰ä¿å¥å±€ / æ–°åž‹ã‚³ãƒ­ãƒŠã‚¦ã‚¤ãƒ«ã‚¹æ„ŸæŸ“ç—‡ã®éƒ½å†…æ„ŸæŸ“è€…ã®çŠ¶æ³ (PDF: æœˆæ›œæ›´æ–°)
     https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/todokedehcyouseisya.html
-    (’:“Œ‹ž“s‚ÌŽ‘—¿‚Å‚ÍA‹L†‚ÌŠÛ[›]‚Å‚Í‚È‚­Š¿”Žš‚Ì—ë[Z]‚ªŽg—p‚³‚ê‚é‚±‚Æ‚ª‚ ‚éB)
+    (æ³¨:æ±äº¬éƒ½ã®è³‡æ–™ã§ã¯ã€è¨˜å·ã®ä¸¸[â—‹]ã§ã¯ãªãæ¼¢æ•°å­—ã®é›¶[ã€‡]ãŒä½¿ç”¨ã•ã‚Œã‚‹ã“ã¨ãŒã‚ã‚‹ã€‚)
 
 
-Žg‚¢•û
+ä½¿ã„æ–¹
 ^^^^^^
 
-“Œ‹ž“s‚Ì web ‚©‚ç 0104.pdf ‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄA./data ƒtƒHƒ‹ƒ_[‚É•Û‘¶‚µ‚½ê‡:
+æ±äº¬éƒ½ã® web ã‹ã‚‰ 0104.pdf ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ã€./data ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã«ä¿å­˜ã—ãŸå ´åˆ:
 
 ::
 
-    # ˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Å data/0104.csv ‚ªo—ˆ‚é
+    # ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã§ data/0104.csv ãŒå‡ºæ¥ã‚‹
     pdf2tky.py data/0104.pdf
     
-    # ˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Å data/0104_c.csv (ƒtƒ@ƒCƒ‹–¼‚É _c •t‰Á)‚ªo—ˆ‚é
+    # ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã§ data/0104_c.csv (ãƒ•ã‚¡ã‚¤ãƒ«åã« _c ä»˜åŠ )ãŒå‡ºæ¥ã‚‹
     cmp_year.py data/0104.csv
 
 
@@ -40,8 +40,8 @@ BUGS
 
 ::
 
-    pdfplumber ‚ÍA’Z‚¢•\‚ðŒ©—Ž‚Æ‚·ê‡‚ª‚ ‚é(—á‚¦‚ÎA‘Š–ÍŒ´Žs 2021/01/08 ÅIƒy[ƒW)B
-    ƒpƒ‰ƒ[ƒ^[‚ÌŽw’è‚Å’²®‚Å‚«‚»‚¤‚Å‚Í‚ ‚é‚ªA—Ç‚­•ª‚©‚ç‚È‚¢B
-    ÅIƒŒƒR[ƒh‚ð–ÚŽ‹‚ÅŠm”F‚µ‚½•û‚ª—Ç‚¢B
+    pdfplumber ã¯ã€çŸ­ã„è¡¨ã‚’è¦‹è½ã¨ã™å ´åˆãŒã‚ã‚‹(ä¾‹ãˆã°ã€ç›¸æ¨¡åŽŸå¸‚ 2021/01/08 æœ€çµ‚ãƒšãƒ¼ã‚¸)ã€‚
+    ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ãƒ¼ã®æŒ‡å®šã§èª¿æ•´ã§ããã†ã§ã¯ã‚ã‚‹ãŒã€è‰¯ãåˆ†ã‹ã‚‰ãªã„ã€‚
+    æœ€çµ‚ãƒ¬ã‚³ãƒ¼ãƒ‰ã‚’ç›®è¦–ã§ç¢ºèªã—ãŸæ–¹ãŒè‰¯ã„ã€‚
 
 
