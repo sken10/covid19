@@ -9,15 +9,15 @@ $ pdf2tky.py data/0104.pdf
 東京都福祉保健局 / 新型コロナウイルス感染症の都内感染者の状況 (PDF: 月曜更新)
 https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/todokedehcyouseisya.html
 
-BUGS
-----
-短い表を見逃すことがあるみたいなので、最終レコードは目視で確認した方が良い。
-パラメーターの調整で回避できると思うが調査していない。
-
 NOTES
 -----
 PDF の表抽出には camelot を使っていましたが、pdfplumber に変えることで 20倍速く
 なりました。表の形が単純なら、pdfplumber が良さそうです。
+
+BUGS
+----
+短い表を見逃すことがあるみたいなので、最終レコードは目視で確認した方が良い。
+パラメーターの調整で回避できそうだが、まだ試していない。
 
 """
 import sys
